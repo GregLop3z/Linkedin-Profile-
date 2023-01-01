@@ -1,0 +1,131 @@
+.container{
+    display: grid;
+    background-color: #f3f2ef;
+    justify-content: center;
+}
+ 
+header {
+    position: relative;
+    width: 900px;
+}
+
+.navbar{
+    display: flex;
+    height: 50px;
+    background: white;
+}
+
+.navbar img {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 50px;
+}
+
+.profile-head {
+    display: flex;
+    width: 150px;
+    height: 150px;
+}
+
+.profile-head-profile-img {
+    position: absolute;
+    margin-left: 20px;
+    border-radius: 100%;
+    border: 5px solid white;
+    margin-top: 75px;
+}
+
+.profile-landingpage{
+    background-color: white;
+    border-radius: 15px;
+    font-family: "Georgia Italic", Georgia, serif;
+    width: 600px;
+    margin-left: 135px;
+}
+
+.profile-body{
+    margin-top: 50px;
+    margin-bottom: 15px;
+}
+
+.profile-body-top{
+    display: flex;
+    margin-left: 25px;
+}
+
+.profile-body-top-left p{
+    margin: 3px;
+}
+
+.profile-body-top-left h1{
+    margin: 3px;
+    font-size: 22px;
+}
+
+.profile-body-top-right{
+    display: flex;
+    padding-left: 80px;
+    margin-top: 50px;
+
+}
+
+button{
+    border-radius: 20px;
+    height: 35px;
+    margin-left: 25px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.open{
+    background-color:#2D64bc;
+    color: white;
+    border-color: #2D64bc;
+    width: 85px;
+}
+
+.add{
+    background-color: white;
+    color: #2D64bc;
+    border-color: #2D64bc;
+    width: 145px;
+}
+
+.more{
+    background-color: white;
+    color: #666666;
+    border-color: #666666;
+    width: 75px;
+}
+
+
+.profile-body-bottom{
+    display: flex;
+    line-height: normal;
+}
+
+.profile-body-bottom p {
+    margin: 2px;
+}
+.profile-body-bottom-left {
+    border-radius: 20px;
+    margin-left: 20px;
+    width: 260px;
+    height: 105px;
+    background-color: #f3f2ef;
+    padding-left: 10px;
+    padding-top: 15px;
+}
+
+.profile-body-bottom-right {
+    border-radius: 20px;
+    margin-left: 20px;
+    width: 260px;
+    height: 105px;
+    border: solid #f3f2ef 2px;    
+    padding-left: 10px;
+    padding-top: 15px;
+}
